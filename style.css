@@ -1,5 +1,11 @@
-.body{
+body{
     font-family: "Oswald";
+}
+
+.doggos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .header {
