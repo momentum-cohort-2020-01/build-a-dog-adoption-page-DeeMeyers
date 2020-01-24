@@ -1,12 +1,26 @@
 body{
     font-family: "Oswald";
 }
-
+img{
+    max-width: 100%;
+}
 .doggos{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
 }
+
+.strays{
+    max-width: 300px;
+}
+/* should put elements in grid from top down */
+/* .doggos{ */
+    /* max-width: 200px; */
+    /* display: grid; */
+    /* grid-template-columns: 30% 30% 30%; */
+/* } */
+
+
 
 .header {
 
