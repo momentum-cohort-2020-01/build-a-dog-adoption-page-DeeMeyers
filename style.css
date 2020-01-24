@@ -1,10 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
-    font-family: "Oswald";
+    font-family: "Open Sans";
 }
 img{
     max-width: 100%;
 }
 .doggos{
+    font-family: "Oswald";
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -13,6 +21,21 @@ img{
 .strays{
     max-width: 300px;
 }
+
+.dog-tags div{
+    font-family: "Open Sans";
+    font-size: .8rem;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 3px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+
+
+
 /* should put elements in grid from top down */
 /* .doggos{ */
     /* max-width: 200px; */
