@@ -11,9 +11,29 @@ body{
 img{
     max-width: 100%;
 }
+header{
+    padding: 1rem;
+    padding-left: 3.4rem;
+    font-size: 1.5rem;
+    background-color: rgb(23 61 115);
+    color: rgb(255	255	255	);
+}
+
+.h2{
+    padding: 1rem;
+    padding-left: 3.4rem;
+    font-weight: bold;
+}
+
+.firstP{
+    padding: 1rem;
+    padding-left: 3.4rem;
+}
+
 .doggos{
     font-family: "Oswald";
     font-size: 1.25rem;
+    padding-left: 2rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -31,12 +51,8 @@ img{
     padding: 4px;
     margin: 2px;
     /* border: 3px; */
-    background-color: aqua;
+    background-color: rgb(160 219 237);
     border-radius: 10px;
-
-}
-
-.header {
 
 }
 
