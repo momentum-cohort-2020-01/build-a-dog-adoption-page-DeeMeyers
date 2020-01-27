@@ -18,7 +18,10 @@ header{
     background-color: rgb(23 61 115);
     color: rgb(255	255	255	);
 }
-
+.blueLine{
+    height: 3px;
+    background-color: rgb(160 219 237);
+}
 .h2{
     padding: 1rem;
     padding-left: 3.4rem;
